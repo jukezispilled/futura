@@ -1,38 +1,12 @@
-.App {
-  text-align: center;
+.magicpattern {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 1000'%3E%3Cmask id='b' x='0' y='0' width='2000' height='1000'%3E%3Cpath fill='url(%23a)' d='M0 0h2000v1000H0z'/%3E%3C/mask%3E%3Cpath fill='%23fff' d='M0 0h2000v1000H0z'/%3E%3Cg style='transform-origin:center center' stroke='%23a3e5ff' stroke-width='.8' fill='none' mask='url(%23b)'%3E%3Cpath d='M0 0h50v50H0zM50 0h50v50H50zM100 0h50v50h-50zM150 0h50v50h-50zM200 0h50v50h-50zM250 0h50v50h-50zM300 0h50v50h-50zM350 0h50v50h-50zM400 0h50v50h-50zM450 0h50v50h-50zM500 0h50v50h-50zM550 0h50v50h-50zM600 0h50v50h-50zM650 0h50v50h-50zM700 0h50v50h-50zM750 0h50v50h-50zM800 0h50v50h-50zM850 0h50v50h-50zM900 0h50v50h-50zM950 0h50v50h-50zM1000 0h50v50h-50zM1050 0h50v50h-50zM1100 0h50v50h-50zM1150 0h50v50h-50zM1200 0h50v50h-50zM1250 0h50v50h-50zM1300 0h50v50h-50zM1350 0h50v50h-50zM1400 0h50v50h-50zM1450 0h50v50h-50zM1500 0h50v50h-50zM1550 0h50v50h-50zM1600 0h50v50h-50zM1650 0h50v50h-50zM1700 0h50v50h-50zM1750 0h50v50h-50zM1800 0h50v50h-50zM1850 0h50v50h-50zM1900 0h50v50h-50zM1950 0h50v50h-50zM2000 0h50v50h-50z'/%3E%3C/g%3E%3C/svg%3E");
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* App.css */
+.rainbow-gradient-bg {
+  background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.gradient-background {
+  background: linear-gradient(90deg, #FF0000, #FF7F00, #FFFF00, #00FF00, #0000FF, #8B00FF);
 }
